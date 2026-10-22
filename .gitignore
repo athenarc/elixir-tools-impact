@@ -1,0 +1,55 @@
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+
+# Virtual environments
+.venv/
+env/
+venv/
+ENV/
+env.bak/
+venv.bak/
+
+# Operating System
+.DS_Store
+.AppleDouble
+.LSOverride
+Thumbs.db
+*.swp
+*.swo
+
+# IDEs and editors
+.idea/
+.vscode/
+*.sublime-project
+*.sublime-workspace
+
+# Large raw datasets (downloaded bio.tools dump ~1GB / >40k files)
+inputs/content-master/
+inputs/content-*/
+
+# API Cache files (dynamic runtime responses from BIP! & OpenAIRE)
+cache/*.json
+!cache/.gitkeep
+
+# Large generated outputs (50MB+ JSON datasets, generated CSVs & plots)
+outputs/json/*.json
+outputs/csv/*.csv
+outputs/plots/*.png
+outputs/plots/*.svg
+!outputs/json/.gitkeep
+!outputs/csv/.gitkeep
+!outputs/plots/.gitkeep
+
+# Deprecated / cleanup directory
+to-delete/
+
+# Internal reports / working documents
+*.docx
+
+# Local environment & secret variables
+.env
+.env.local

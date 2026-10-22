@@ -1,0 +1,8 @@
+# Core scripts run using Python 3.8+ Standard Library only.
+# No external packages are required to run the pipeline!
+
+# Optional dependencies for generating raster PNG copies of SVG plots:
+# (resvg-py is recommended for fast Rust-based SVG rasterization)
+resvg-py>=0.2.0
+# Alternative rasterizer:
+# cairosvg>=2.7.0
